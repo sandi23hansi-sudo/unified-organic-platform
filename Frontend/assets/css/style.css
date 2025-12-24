@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #f1f8f4;
+  color: #1b1b1b;
+}
+
+.topbar {
+  background: #2e7d32;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #2e7d32;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e0efe5;
+}
